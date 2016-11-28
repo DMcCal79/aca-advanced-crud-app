@@ -1,0 +1,85 @@
+body {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ), url("../img/vintageMailboxes.jpg");
+
+  background-position:center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.topBarButton {
+  padding-right: 0px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: white;
+
+}
+
+.newPost,.mainMenu {
+  float: right;
+  margin-top: 8px;
+  font-family: 'Oswald', sans-serif;
+  margin-right: 0px;
+}
+.postControl {
+  float: right;
+  clear: left;
+  margin-left: 1%;
+}
+
+.author {
+  float: left;
+}
+
+.text {
+  float: left;
+  clear: right;
+}
+
+.date {
+  float: right;
+}
+
+.listText {
+  display: block;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#openMessage {
+margin-left: 3%;
+margin-right: 3%;
+}
+
+.eachPost {
+  margin-top: 12px;
+  background: rgba(255, 255, 255, 0.75); /*This will make the white background of the div transparent.*/
+  border-radius: 8px;
+  padding-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.messageView {
+  margin-top: 40px;
+}
+
+.saveMessage {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.deleteMessage {
+  margin-left: 90%;
+  margin-top: 8px;
+}
